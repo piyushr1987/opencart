@@ -1,68 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-28T21:00:37 IST" name="Default suite" finished-at="2023-09-28T21:01:11 IST" duration-ms="34616">
+  <suite started-at="2023-09-29T18:36:45 IST" name="Default suite" finished-at="2023-09-29T18:37:32 IST" duration-ms="47055">
     <groups>
     </groups>
-    <test started-at="2023-09-28T21:00:37 IST" name="Default test" finished-at="2023-09-28T21:01:11 IST" duration-ms="34616">
-      <class name="com.opencart.tests.RegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:00:37 IST" name="setUp" finished-at="2023-09-28T21:00:56 IST" duration-ms="19442" status="PASS">
+    <test started-at="2023-09-29T18:36:45 IST" name="Default test" finished-at="2023-09-29T18:37:32 IST" duration-ms="47055">
+      <class name="com.opencart.tests.LoginTest_DDT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:36:45 IST" name="setUp" finished-at="2023-09-29T18:36:54 IST" duration-ms="8987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testMyAccountAndRegister()[pri:1, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:00:56 IST" name="testMyAccountAndRegister" finished-at="2023-09-28T21:01:04 IST" duration-ms="7569" status="PASS">
+        <test-method signature="testLoginDetails(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:36:54 IST" name="testLoginDetails" data-provider="LoginData" finished-at="2023-09-29T18:36:56 IST" duration-ms="1634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc456&]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMyAccountAndRegister -->
-        <test-method signature="testRegistration()[pri:2, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:04 IST" name="testRegistration" finished-at="2023-09-28T21:01:04 IST" duration-ms="20" status="PASS">
+        </test-method> <!-- testLoginDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:36:56 IST" name="tearDown" finished-at="2023-09-29T18:36:56 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRegistration -->
-        <test-method signature="testFirstName()[pri:3, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:04 IST" name="testFirstName" finished-at="2023-09-28T21:01:04 IST" duration-ms="106" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:36:56 IST" name="setUp" finished-at="2023-09-29T18:37:04 IST" duration-ms="7649" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFirstName -->
-        <test-method signature="testSecondName()[pri:4, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:04 IST" name="testSecondName" finished-at="2023-09-28T21:01:04 IST" duration-ms="82" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginDetails(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:04 IST" name="testLoginDetails" data-provider="LoginData" finished-at="2023-09-29T18:37:05 IST" duration-ms="1553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rteg45&]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSecondName -->
-        <test-method signature="testEmail()[pri:5, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:04 IST" name="testEmail" finished-at="2023-09-28T21:01:04 IST" duration-ms="115" status="PASS">
+        </test-method> <!-- testLoginDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:05 IST" name="tearDown" finished-at="2023-09-29T18:37:06 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEmail -->
-        <test-method signature="testTelephone()[pri:6, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:04 IST" name="testTelephone" finished-at="2023-09-28T21:01:04 IST" duration-ms="70" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:06 IST" name="setUp" finished-at="2023-09-29T18:37:13 IST" duration-ms="6913" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTelephone -->
-        <test-method signature="testPasswordAndConfirmPassword()[pri:7, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:04 IST" name="testPasswordAndConfirmPassword" finished-at="2023-09-28T21:01:08 IST" duration-ms="3229" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginDetails(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:13 IST" name="testLoginDetails" data-provider="LoginData" finished-at="2023-09-29T18:37:15 IST" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[piyushr219@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TESTdemo123@]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPasswordAndConfirmPassword -->
-        <test-method signature="testNewsLetters()[pri:8, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:08 IST" name="testNewsLetters" finished-at="2023-09-28T21:01:08 IST" duration-ms="56" status="PASS">
+        </test-method> <!-- testLoginDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:15 IST" name="tearDown" finished-at="2023-09-29T18:37:15 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNewsLetters -->
-        <test-method signature="testContinueButton()[pri:9, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:08 IST" name="testContinueButton" finished-at="2023-09-28T21:01:11 IST" duration-ms="3254" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:15 IST" name="setUp" finished-at="2023-09-29T18:37:21 IST" duration-ms="6701" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testContinueButton -->
-        <test-method signature="testPrivacyPolicy()[pri:9, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:11 IST" name="testPrivacyPolicy" finished-at="2023-09-28T21:01:11 IST" duration-ms="80" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginDetails(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:21 IST" name="testLoginDetails" data-provider="LoginData" finished-at="2023-09-29T18:37:23 IST" duration-ms="1464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mno@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tervvv&]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPrivacyPolicy -->
-        <test-method signature="testAccountSucess()[pri:10, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:11 IST" name="testAccountSucess" finished-at="2023-09-28T21:01:11 IST" duration-ms="144" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- testLoginDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:23 IST" name="tearDown" finished-at="2023-09-29T18:37:23 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:23 IST" name="setUp" finished-at="2023-09-29T18:37:31 IST" duration-ms="7768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginDetails(java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:31 IST" name="testLoginDetails" data-provider="LoginData" finished-at="2023-09-29T18:37:32 IST" duration-ms="748" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.opencart.tests.RegistrationTest.testAccountSucess(RegistrationTest.java:93)
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+at com.opencart.pages.LoginPage.enterEmail(LoginPage.java:49)
+at com.opencart.tests.LoginTest_DDT.testLoginDetails(LoginTest_DDT.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,15 +161,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAccountSucess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.RegistrationTest@740cae06]" started-at="2023-09-28T21:01:11 IST" name="tearDown" finished-at="2023-09-28T21:01:11 IST" duration-ms="346" status="PASS">
+        </test-method> <!-- testLoginDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.LoginTest_DDT@4d154ccd]" started-at="2023-09-29T18:37:32 IST" name="tearDown" finished-at="2023-09-29T18:37:32 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.opencart.tests.RegistrationTest -->
+      </class> <!-- com.opencart.tests.LoginTest_DDT -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

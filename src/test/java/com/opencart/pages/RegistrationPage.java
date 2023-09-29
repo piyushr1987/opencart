@@ -82,10 +82,14 @@ public class RegistrationPage extends BaseClass {
 
 	}
 
-	public void enterPasswordAndConfirmPassword(String pass, String cpass) throws InterruptedException {
+	public void enterPassword(String pass) throws InterruptedException {
 
-		txtPassword.sendKeys(pass);
-		Thread.sleep(3000);
+		txtConfirmPassword.sendKeys(pass);
+
+	}
+
+	public void enterConfirmPassword(String cpass) throws InterruptedException {
+
 		txtConfirmPassword.sendKeys(cpass);
 
 	}

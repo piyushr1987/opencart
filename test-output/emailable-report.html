@@ -9,16 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">34,616</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">47,055</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.opencart.tests.RegistrationTest</td><td><a href="#m0">testAccountSucess</a></td><td rowspan="1">1695915071450</td><td rowspan="1">144</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">com.opencart.tests.RegistrationTest</td><td><a href="#m1">testContinueButton</a></td><td rowspan="1">1695915068107</td><td rowspan="1">3254</td></tr><tr class="passedeven"><td><a href="#m2">testEmail</a></td><td rowspan="1">1695915064626</td><td rowspan="1">115</td></tr><tr class="passedeven"><td><a href="#m3">testFirstName</a></td><td rowspan="1">1695915064429</td><td rowspan="1">106</td></tr><tr class="passedeven"><td><a href="#m4">testMyAccountAndRegister</a></td><td rowspan="1">1695915056827</td><td rowspan="1">7569</td></tr><tr class="passedeven"><td><a href="#m5">testNewsLetters</a></td><td rowspan="1">1695915068047</td><td rowspan="1">56</td></tr><tr class="passedeven"><td><a href="#m6">testPasswordAndConfirmPassword</a></td><td rowspan="1">1695915064816</td><td rowspan="1">3229</td></tr><tr class="passedeven"><td><a href="#m7">testPrivacyPolicy</a></td><td rowspan="1">1695915071366</td><td rowspan="1">80</td></tr><tr class="passedeven"><td><a href="#m8">testRegistration</a></td><td rowspan="1">1695915064407</td><td rowspan="1">20</td></tr><tr class="passedeven"><td><a href="#m9">testSecondName</a></td><td rowspan="1">1695915064539</td><td rowspan="1">82</td></tr><tr class="passedeven"><td><a href="#m10">testTelephone</a></td><td rowspan="1">1695915064744</td><td rowspan="1">70</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.opencart.tests.LoginTest_DDT</td><td><a href="#m0">testLoginDetails</a></td><td rowspan="1">1695992851344</td><td rowspan="1">748</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.opencart.tests.LoginTest_DDT</td><td><a href="#m1">testLoginDetails</a></td><td rowspan="4">1695992833050</td><td rowspan="4">2092</td></tr><tr class="passedeven"><td><a href="#m2">testLoginDetails</a></td></tr><tr class="passedeven"><td><a href="#m3">testLoginDetails</a></td></tr><tr class="passedeven"><td><a href="#m4">testLoginDetails</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.opencart.tests.RegistrationTest#testAccountSucess</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.opencart.tests.RegistrationTest.testAccountSucess(RegistrationTest.java:93)
+<h2>Default test</h2><h3 id="m0">com.opencart.tests.LoginTest_DDT#testLoginDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>null</td><td>null</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+	at com.opencart.pages.LoginPage.enterEmail(LoginPage.java:49)
+	at com.opencart.tests.LoginTest_DDT.testLoginDetails(LoginTest_DDT.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -48,15 +52,9 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.opencart.tests.RegistrationTest#testContinueButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.opencart.tests.RegistrationTest#testEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.opencart.tests.RegistrationTest#testFirstName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.opencart.tests.RegistrationTest#testMyAccountAndRegister</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.opencart.tests.RegistrationTest#testNewsLetters</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.opencart.tests.RegistrationTest#testPasswordAndConfirmPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.opencart.tests.RegistrationTest#testPrivacyPolicy</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.opencart.tests.RegistrationTest#testRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.opencart.tests.RegistrationTest#testSecondName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.opencart.tests.RegistrationTest#testTelephone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.opencart.tests.LoginTest_DDT#testLoginDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>piyushr219@gmail.com</td><td>TESTdemo123@</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.opencart.tests.LoginTest_DDT#testLoginDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mno@gmail.com</td><td>tervvv&amp;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.opencart.tests.LoginTest_DDT#testLoginDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>xyz@gmail.com</td><td>rteg45&amp;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.opencart.tests.LoginTest_DDT#testLoginDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>abc@gmail.com</td><td>abc456&amp;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

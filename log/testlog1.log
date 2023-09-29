@@ -36,3 +36,181 @@
 2023-09-28 18:06:03,322 [main] INFO ebay - company logo is displayed on home page
 2023-09-28 18:06:03,356 [main] INFO ebay - my account link is displayed on home page at footer
 2023-09-28 21:01:04,422 [main] INFO ebay - sucessfully navigate to the register page
+2023-09-29 16:59:52,091 [main] INFO ebay - sucessfully navigate to the login page
+2023-09-29 17:06:37,363 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 17:06:37,442 [main] INFO ebay - click on login
+2023-09-29 17:06:38,187 [main] INFO ebay - sucessfully navigate to the login page
+2023-09-29 17:06:39,464 [main] INFO ebay - enter email address
+2023-09-29 17:06:39,558 [main] INFO ebay - enter password
+2023-09-29 17:06:39,634 [main] INFO ebay - enter email address
+2023-09-29 17:06:39,717 [main] INFO ebay - enter password
+2023-09-29 17:06:39,792 [main] INFO ebay - enter email address
+2023-09-29 17:06:39,808 [main] INFO ebay - click on login button
+2023-09-29 17:13:02,479 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 17:13:02,553 [main] INFO ebay - click on login
+2023-09-29 17:13:03,305 [main] INFO ebay - sucessfully navigate to the login page
+2023-09-29 17:13:04,522 [main] INFO ebay - enter email address
+2023-09-29 17:13:04,625 [main] INFO ebay - enter password
+2023-09-29 17:13:04,697 [main] INFO ebay - enter email address
+2023-09-29 17:13:04,786 [main] INFO ebay - enter password
+2023-09-29 17:13:04,890 [main] INFO ebay - enter email address
+2023-09-29 17:13:04,917 [main] INFO ebay - click on login button
+2023-09-29 17:20:56,990 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 17:21:04,791 [main] INFO ebay - click on login
+2023-09-29 17:21:41,907 [main] INFO ebay - enter email address
+2023-09-29 17:22:26,932 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 17:22:27,047 [main] INFO ebay - click on login
+2023-09-29 17:22:28,073 [main] INFO ebay - sucessfully navigate to the login page
+2023-09-29 17:22:29,342 [main] INFO ebay - enter email address
+2023-09-29 17:22:29,440 [main] INFO ebay - enter password
+2023-09-29 17:22:29,516 [main] INFO ebay - enter email address
+2023-09-29 17:22:29,597 [main] INFO ebay - enter password
+2023-09-29 17:22:29,677 [main] INFO ebay - enter email address
+2023-09-29 17:22:29,698 [main] INFO ebay - click on login button
+2023-09-29 18:10:53,781 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:10:53,886 [main] INFO ebay - click on login
+2023-09-29 18:10:54,543 [main] INFO ebay - sucessfully navigate to the login page
+2023-09-29 18:10:54,559 [main] INFO ebay - enter email address
+2023-09-29 18:10:54,672 [main] INFO ebay - enter password
+2023-09-29 18:10:54,746 [main] INFO ebay - click on login button
+2023-09-29 18:10:55,838 [main] INFO ebay - sucessfully login to the account
+2023-09-29 18:11:40,684 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:11:40,769 [main] INFO ebay - click on login
+2023-09-29 18:11:41,370 [main] INFO ebay - enter email address
+2023-09-29 18:11:41,469 [main] INFO ebay - enter password
+2023-09-29 18:11:41,537 [main] INFO ebay - click on login button
+2023-09-29 18:11:43,565 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:11:43,662 [main] INFO ebay - click on login
+2023-09-29 18:11:44,314 [main] INFO ebay - enter email address
+2023-09-29 18:11:44,483 [main] INFO ebay - enter password
+2023-09-29 18:11:44,557 [main] INFO ebay - click on login button
+2023-09-29 18:11:45,681 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:11:45,722 [main] INFO ebay - click on login
+2023-09-29 18:11:46,399 [main] INFO ebay - enter email address
+2023-09-29 18:13:51,635 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:13:51,709 [main] INFO ebay - click on login
+2023-09-29 18:13:52,378 [main] INFO ebay - enter email address
+2023-09-29 18:13:52,475 [main] INFO ebay - enter password
+2023-09-29 18:13:52,546 [main] INFO ebay - click on login button
+2023-09-29 18:13:53,381 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:13:53,446 [main] INFO ebay - click on login
+2023-09-29 18:13:54,058 [main] INFO ebay - enter email address
+2023-09-29 18:13:54,219 [main] INFO ebay - enter password
+2023-09-29 18:13:54,284 [main] INFO ebay - click on login button
+2023-09-29 18:13:55,441 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:13:55,485 [main] INFO ebay - click on login
+2023-09-29 18:13:56,122 [main] INFO ebay - enter email address
+2023-09-29 18:15:37,641 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:15:37,713 [main] INFO ebay - click on login
+2023-09-29 18:15:38,369 [main] INFO ebay - enter email address
+2023-09-29 18:15:38,472 [main] INFO ebay - enter password
+2023-09-29 18:15:38,537 [main] INFO ebay - click on login button
+2023-09-29 18:15:39,153 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:15:39,224 [main] INFO ebay - click on login
+2023-09-29 18:15:39,838 [main] INFO ebay - enter email address
+2023-09-29 18:15:40,003 [main] INFO ebay - enter password
+2023-09-29 18:15:40,062 [main] INFO ebay - click on login button
+2023-09-29 18:15:41,318 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:15:41,361 [main] INFO ebay - click on login
+2023-09-29 18:15:42,110 [main] INFO ebay - enter email address
+2023-09-29 18:17:33,260 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:17:33,333 [main] INFO ebay - click on login
+2023-09-29 18:17:34,051 [main] INFO ebay - enter email address
+2023-09-29 18:17:34,147 [main] INFO ebay - enter password
+2023-09-29 18:17:34,214 [main] INFO ebay - click on login button
+2023-09-29 18:17:34,842 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:17:34,912 [main] INFO ebay - click on login
+2023-09-29 18:17:35,488 [main] INFO ebay - enter email address
+2023-09-29 18:17:35,600 [main] INFO ebay - enter password
+2023-09-29 18:17:35,656 [main] INFO ebay - click on login button
+2023-09-29 18:17:36,898 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:17:36,963 [main] INFO ebay - click on login
+2023-09-29 18:17:37,706 [main] INFO ebay - enter email address
+2023-09-29 18:18:31,790 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:18:31,892 [main] INFO ebay - click on login
+2023-09-29 18:18:32,531 [main] INFO ebay - enter email address
+2023-09-29 18:18:32,630 [main] INFO ebay - enter password
+2023-09-29 18:18:32,699 [main] INFO ebay - click on login button
+2023-09-29 18:18:41,680 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:18:41,767 [main] INFO ebay - click on login
+2023-09-29 18:18:42,536 [main] INFO ebay - enter email address
+2023-09-29 18:18:42,636 [main] INFO ebay - enter password
+2023-09-29 18:18:42,696 [main] INFO ebay - click on login button
+2023-09-29 18:18:50,829 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:18:50,922 [main] INFO ebay - click on login
+2023-09-29 18:18:51,531 [main] INFO ebay - enter email address
+2023-09-29 18:19:21,587 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:19:21,673 [main] INFO ebay - click on login
+2023-09-29 18:19:22,368 [main] INFO ebay - enter email address
+2023-09-29 18:19:22,457 [main] INFO ebay - enter password
+2023-09-29 18:19:22,521 [main] INFO ebay - click on login button
+2023-09-29 18:19:30,362 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:19:30,449 [main] INFO ebay - click on login
+2023-09-29 18:19:31,038 [main] INFO ebay - enter email address
+2023-09-29 18:19:31,132 [main] INFO ebay - enter password
+2023-09-29 18:19:31,194 [main] INFO ebay - click on login button
+2023-09-29 18:19:42,111 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:19:42,191 [main] INFO ebay - click on login
+2023-09-29 18:19:44,445 [main] INFO ebay - enter email address
+2023-09-29 18:27:25,609 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:27:25,672 [main] INFO ebay - click on login
+2023-09-29 18:27:26,345 [main] INFO ebay - enter email address
+2023-09-29 18:27:26,437 [main] INFO ebay - enter password
+2023-09-29 18:27:26,509 [main] INFO ebay - click on login button
+2023-09-29 18:27:36,124 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:27:36,225 [main] INFO ebay - click on login
+2023-09-29 18:27:36,873 [main] INFO ebay - enter email address
+2023-09-29 18:27:37,003 [main] INFO ebay - enter password
+2023-09-29 18:27:37,070 [main] INFO ebay - click on login button
+2023-09-29 18:27:45,023 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:27:45,107 [main] INFO ebay - click on login
+2023-09-29 18:27:46,136 [main] INFO ebay - enter email address
+2023-09-29 18:29:23,283 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:29:23,372 [main] INFO ebay - click on login
+2023-09-29 18:29:23,987 [main] INFO ebay - enter email address
+2023-09-29 18:29:24,086 [main] INFO ebay - enter password
+2023-09-29 18:29:24,162 [main] INFO ebay - click on login button
+2023-09-29 18:29:32,493 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:29:32,585 [main] INFO ebay - click on login
+2023-09-29 18:29:33,246 [main] INFO ebay - enter email address
+2023-09-29 18:29:33,347 [main] INFO ebay - enter password
+2023-09-29 18:29:33,413 [main] INFO ebay - click on login button
+2023-09-29 18:29:41,182 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:29:41,267 [main] INFO ebay - click on login
+2023-09-29 18:29:41,896 [main] INFO ebay - enter email address
+2023-09-29 18:30:43,906 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:30:47,148 [main] INFO ebay - click on login
+2023-09-29 18:30:50,478 [main] INFO ebay - enter email address
+2023-09-29 18:31:00,492 [main] INFO ebay - enter password
+2023-09-29 18:31:08,619 [main] INFO ebay - click on login button
+2023-09-29 18:32:31,192 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:32:32,995 [main] INFO ebay - click on login
+2023-09-29 18:32:35,465 [main] INFO ebay - enter email address
+2023-09-29 18:32:42,521 [main] INFO ebay - enter password
+2023-09-29 18:32:43,171 [main] INFO ebay - click on login button
+2023-09-29 18:33:42,151 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:33:43,841 [main] INFO ebay - click on login
+2023-09-29 18:33:46,420 [main] INFO ebay - enter email address
+2023-09-29 18:36:54,973 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:36:55,077 [main] INFO ebay - click on login
+2023-09-29 18:36:55,711 [main] INFO ebay - enter email address
+2023-09-29 18:36:55,821 [main] INFO ebay - enter password
+2023-09-29 18:36:55,885 [main] INFO ebay - click on login button
+2023-09-29 18:37:04,424 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:37:04,491 [main] INFO ebay - click on login
+2023-09-29 18:37:05,122 [main] INFO ebay - enter email address
+2023-09-29 18:37:05,223 [main] INFO ebay - enter password
+2023-09-29 18:37:05,294 [main] INFO ebay - click on login button
+2023-09-29 18:37:13,057 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:37:13,178 [main] INFO ebay - click on login
+2023-09-29 18:37:13,879 [main] INFO ebay - enter email address
+2023-09-29 18:37:13,991 [main] INFO ebay - enter password
+2023-09-29 18:37:14,055 [main] INFO ebay - click on login button
+2023-09-29 18:37:21,977 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:37:22,049 [main] INFO ebay - click on login
+2023-09-29 18:37:22,667 [main] INFO ebay - enter email address
+2023-09-29 18:37:22,766 [main] INFO ebay - enter password
+2023-09-29 18:37:22,830 [main] INFO ebay - click on login button
+2023-09-29 18:37:31,346 [main] INFO ebay - sucessfully navigate to open cart home page and click on my account
+2023-09-29 18:37:31,430 [main] INFO ebay - click on login
+2023-09-29 18:37:32,068 [main] INFO ebay - enter email address

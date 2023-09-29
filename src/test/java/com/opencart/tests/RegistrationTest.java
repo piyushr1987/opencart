@@ -65,7 +65,9 @@ public class RegistrationTest extends BaseClass {
 
 	@Test(priority = 7)
 	public void testPasswordAndConfirmPassword() throws InterruptedException {
-		register.enterPasswordAndConfirmPassword(prop.getProperty("Password"), (prop.getProperty("ConfirmPassword")));
+		register.enterPassword(prop.getProperty("Password"));
+		Thread.sleep(3000);
+		register.enterConfirmPassword(prop.getProperty("ConfirmPassword"));
 	}
 
 	@Test(priority = 8)
