@@ -11,17 +11,21 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseClass {
 
 	public static WebDriver driver;
 	public static Properties prop;
 	public static Logger Logger;
+	public static WebDriverWait wait;
 
 	public BaseClass() throws IOException {
 		FileInputStream fis;
@@ -68,6 +72,11 @@ public class BaseClass {
 		FileHandler.copy(source, target);
 		System.out.println("Screen shot taken");
 
+	}
+
+	public void explicitWaitCondition(WebElement element) {
+		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
 }

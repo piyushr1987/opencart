@@ -214,3 +214,54 @@
 2023-09-29 18:37:31,346 - ebay -INFO - sucessfully navigate to open cart home page and click on my account
 2023-09-29 18:37:31,430 - ebay -INFO - click on login
 2023-09-29 18:37:32,068 - ebay -INFO - enter email address
+2023-10-02 16:59:36,378 - ebay -INFO - Go to desktop and then click on mac
+2023-10-02 17:00:12,226 - ebay -INFO - sucessfully navigate to mac page
+2023-10-02 17:00:12,421 - ebay -INFO - click on grid view
+2023-10-02 17:00:12,560 - ebay -INFO - Sort by label is displayed on page
+2023-10-02 17:00:12,586 - ebay -INFO - default value is selected
+2023-10-02 17:00:12,600 - ebay -INFO - click on grid view
+2023-10-02 17:00:16,330 - ebay -INFO - show label is displayed
+2023-10-02 17:00:16,367 - ebay -INFO - defalut value is sucessfully displayed
+2023-10-02 17:00:16,371 - ebay -INFO - select show value
+2023-10-02 17:00:16,565 - ebay -INFO - click on iMac
+2023-10-02 17:01:09,492 - ebay -INFO - click on iMac image
+2023-10-02 17:01:09,548 - ebay -INFO - click on next button
+2023-10-02 17:01:09,614 - ebay -INFO - click on close button
+2023-10-02 17:01:11,302 - ebay -INFO - click on compare this product
+2023-10-02 17:01:31,459 - ebay -INFO - click on product compare link
+2023-10-02 17:01:34,413 - ebay -INFO - sucessfully dispalyed the product details
+2023-10-02 17:01:34,417 - ebay -INFO - click on add to cart
+2023-10-02 17:01:34,475 - ebay -INFO - click on cart total
+2023-10-02 17:01:35,477 - ebay -INFO - click on view cart
+2023-10-02 17:52:07,917 - ebay -INFO - Go to desktop and then click on mac
+2023-10-02 17:52:51,452 - ebay -INFO - click on grid view
+2023-10-02 17:53:22,085 - ebay -INFO - click on grid view
+2023-10-02 17:53:22,140 - ebay -INFO - select show value
+2023-10-02 17:53:22,156 - ebay -INFO - click on iMac
+2023-10-02 17:53:22,191 - ebay -INFO - click on iMac image
+2023-10-02 17:53:22,203 - ebay -INFO - click on next button
+2023-10-02 17:53:22,213 - ebay -INFO - click on close button
+2023-10-02 17:53:22,221 - ebay -INFO - click on compare this product
+2023-10-02 17:53:22,232 - ebay -INFO - click on product compare link
+2023-10-02 17:53:22,248 - ebay -INFO - click on add to cart
+2023-10-02 17:53:22,257 - ebay -INFO - click on cart total
+2023-10-02 17:53:52,674 - ebay -INFO - click on view cart
+2023-10-02 17:54:11,302 - ebay -INFO - Go to desktop and then click on mac
+2023-10-02 17:54:15,906 - ebay -INFO - sucessfully navigate to mac page
+2023-10-02 17:54:16,123 - ebay -INFO - click on grid view
+2023-10-02 17:54:16,248 - ebay -INFO - Sort by label is displayed on page
+2023-10-02 17:54:16,295 - ebay -INFO - default value is selected
+2023-10-02 17:54:16,308 - ebay -INFO - click on grid view
+2023-10-02 17:54:17,224 - ebay -INFO - show label is displayed
+2023-10-02 17:54:17,253 - ebay -INFO - defalut value is sucessfully displayed
+2023-10-02 17:54:17,256 - ebay -INFO - select show value
+2023-10-02 17:54:17,423 - ebay -INFO - click on iMac
+2023-10-02 17:54:19,977 - ebay -INFO - click on iMac image
+2023-10-02 17:54:20,076 - ebay -INFO - click on next button
+2023-10-02 17:54:20,133 - ebay -INFO - click on close button
+2023-10-02 17:54:21,259 - ebay -INFO - click on compare this product
+2023-10-02 17:54:41,456 - ebay -INFO - click on product compare link
+2023-10-02 17:54:43,101 - ebay -INFO - sucessfully dispalyed the product details
+2023-10-02 17:54:43,108 - ebay -INFO - click on add to cart
+2023-10-02 17:54:43,208 - ebay -INFO - click on cart total
+2023-10-02 17:54:43,826 - ebay -INFO - click on view cart
