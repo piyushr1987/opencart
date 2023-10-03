@@ -265,3 +265,23 @@
 2023-10-02 17:54:43,108 [main] INFO ebay - click on add to cart
 2023-10-02 17:54:43,208 [main] INFO ebay - click on cart total
 2023-10-02 17:54:43,826 [main] INFO ebay - click on view cart
+2023-10-03 18:11:32,374 [main] INFO ebay - Go to laptop&Notebooks and then click on show all laptops and notebooks
+2023-10-03 18:11:39,017 [main] INFO ebay - sucessfully navigate to laptop and notebooks page
+2023-10-03 18:11:39,242 [main] INFO ebay - click on grid view
+2023-10-03 18:11:39,328 [main] INFO ebay - click on mac book pro
+2023-10-03 18:11:43,932 [main] INFO ebay - click on mac book pro image
+2023-10-03 18:11:44,058 [main] INFO ebay - click on next button
+2023-10-03 18:11:44,114 [main] INFO ebay - click on close button
+2023-10-03 18:11:45,420 [main] INFO ebay - enter the quantity
+2023-10-03 18:11:45,582 [main] INFO ebay - click on add to cart
+2023-10-03 18:11:45,676 [main] INFO ebay - click on view cart
+2023-10-03 18:12:31,767 [main] INFO ebay - Go to laptop&Notebooks and then click on show all laptops and notebooks
+2023-10-03 18:12:37,023 [main] INFO ebay - sucessfully navigate to laptop and notebooks page
+2023-10-03 18:12:37,255 [main] INFO ebay - click on grid view
+2023-10-03 18:12:37,318 [main] INFO ebay - click on mac book pro
+2023-10-03 18:12:41,404 [main] INFO ebay - click on mac book pro image
+2023-10-03 18:12:41,524 [main] INFO ebay - click on next button
+2023-10-03 18:12:41,592 [main] INFO ebay - click on close button
+2023-10-03 18:12:42,516 [main] INFO ebay - enter the quantity
+2023-10-03 18:12:42,687 [main] INFO ebay - click on add to cart
+2023-10-03 18:12:42,772 [main] INFO ebay - click on view cart

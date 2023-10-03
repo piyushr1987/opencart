@@ -3,18 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opencart.tests.DesktopTest">
+      <class name="com.opencart.tests.LaptopAndNotebookTest">
         <methods>
-          <include name="testViewCart"/>
-          <include name="testImacPage"/>
-          <include name="testCheckOutPage"/>
-          <include name="testCartTotal"/>
-          <include name="tearDown"/>
-          <include name="testListView"/>
           <include name="setUp"/>
-          <include name="testCompareThisProduct"/>
+          <include name="testListViewSelection"/>
         </methods>
-      </class> <!-- com.opencart.tests.DesktopTest -->
+      </class> <!-- com.opencart.tests.LaptopAndNotebookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
