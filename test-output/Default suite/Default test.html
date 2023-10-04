@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 03 18:12:18 IST 2023</td>
+<td>Started on:</td><td>Wed Oct 04 18:36:38 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24549 ms)</td>
+<tr><td>Total time:</td><td>70 seconds (70935 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testListViewSelection()'><b>testListViewSelection</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.opencart.tests.LaptopAndNotebookTest.testListViewSelection(LaptopAndNotebookTest.java:53)
+<td title='com.opencart.tests.ComponentsTest.testReviews()'><b>testReviews</b><br>Test class: com.opencart.tests.ComponentsTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d8efbbe303143c025a50c74483c8fb32)] -&gt; id: input-name] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50378/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8efbbe303143c025a50c74483c8fb32
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.opencart.pages.ComponentsPage.writeReview(ComponentsPage.java:109)
+	at com.opencart.tests.ComponentsTest.testReviews(ComponentsTest.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,13 +115,17 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1825662648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1825662648'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.opencart.tests.LaptopAndNotebookTest.testListViewSelection(LaptopAndNotebookTest.java:53)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1869373559", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1869373559'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d8efbbe303143c025a50c74483c8fb32)] -&gt; id: input-name] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50378/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8efbbe303143c025a50c74483c8fb32
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.opencart.pages.ComponentsPage.writeReview(ComponentsPage.java:109)
+	at com.opencart.tests.ComponentsTest.testReviews(ComponentsTest.java:74)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -147,8 +155,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
+<td>30</td>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -159,55 +167,55 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testMacBookProImage()'><b>testMacBookProImage</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
+<td title='com.opencart.tests.ComponentsTest.testMonitorsPage()'><b>testMonitorsPage</b><br>Test class: com.opencart.tests.ComponentsTest</td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
 <tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testCloseButton()'><b>testCloseButton</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
+<td title='com.opencart.tests.ComponentsTest.testRange()'><b>testRange</b><br>Test class: com.opencart.tests.ComponentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
+<tr>
+<td title='com.opencart.tests.ComponentsTest.testSamsungMonitor()'><b>testSamsungMonitor</b><br>Test class: com.opencart.tests.ComponentsTest</td>
+<td></td>
+<td>9</td>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
+<tr>
+<td title='com.opencart.tests.ComponentsTest.testRating()'><b>testRating</b><br>Test class: com.opencart.tests.ComponentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
+<tr>
+<td title='com.opencart.tests.ComponentsTest.testComponents()'><b>testComponents</b><br>Test class: com.opencart.tests.ComponentsTest</td>
+<td></td>
+<td>8</td>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
+<tr>
+<td title='com.opencart.tests.ComponentsTest.testQuantity()'><b>testQuantity</b><br>Test class: com.opencart.tests.ComponentsTest</td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
 <tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testViewCart()'><b>testViewCart</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
+<td title='com.opencart.tests.ComponentsTest.testListView()'><b>testListView</b><br>Test class: com.opencart.tests.ComponentsTest</td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
 <tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testQuantity()'><b>testQuantity</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
+<td title='com.opencart.tests.ComponentsTest.testContinue()'><b>testContinue</b><br>Test class: com.opencart.tests.ComponentsTest</td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
 <tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testAddToCart()'><b>testAddToCart</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
+<td title='com.opencart.tests.ComponentsTest.testViewCart()'><b>testViewCart</b><br>Test class: com.opencart.tests.ComponentsTest</td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
 <tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testGridView()'><b>testGridView</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
+<td title='com.opencart.tests.ComponentsTest.testAddToCart()'><b>testAddToCart</b><br>Test class: com.opencart.tests.ComponentsTest</td>
 <td></td>
 <td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
-<tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testDesktopDropdown()'><b>testDesktopDropdown</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
-<td></td>
-<td>5</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
-<tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testLaptopAndNotebookPage()'><b>testLaptopAndNotebookPage</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
-<tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testMacBookPro()'><b>testMacBookPro</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
-<td></td>
-<td>4</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
-<tr>
-<td title='com.opencart.tests.LaptopAndNotebookTest.testNextButton()'><b>testNextButton</b><br>Test class: com.opencart.tests.LaptopAndNotebookTest</td>
-<td></td>
-<td>0</td>
-<td>com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f</td></tr>
+<td>com.opencart.tests.ComponentsTest@54c5a2ff</td></tr>
 </table><p>
 </body>
 </html>

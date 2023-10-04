@@ -38,7 +38,7 @@ public class BaseClass {
 	public void intialization() {
 		Logger = Logger.getLogger("ebay");
 		PropertyConfigurator.configure("log4j.properties");
-
+		Logger.info("open the chrome browser");
 		String browserName = prop.getProperty("browserName");
 
 		if (browserName.contains("chrome")) {

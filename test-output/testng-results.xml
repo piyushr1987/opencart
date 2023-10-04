@@ -2,35 +2,60 @@
 <testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-03T18:12:18 IST" name="Default suite" finished-at="2023-10-03T18:12:42 IST" duration-ms="24549">
+  <suite started-at="2023-10-04T18:36:38 IST" name="Default suite" finished-at="2023-10-04T18:37:49 IST" duration-ms="70935">
     <groups>
     </groups>
-    <test started-at="2023-10-03T18:12:18 IST" name="Default test" finished-at="2023-10-03T18:12:42 IST" duration-ms="24549">
-      <class name="com.opencart.tests.LaptopAndNotebookTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:18 IST" name="setUp" finished-at="2023-10-03T18:12:31 IST" duration-ms="13413" status="PASS">
+    <test started-at="2023-10-04T18:36:38 IST" name="Default test" finished-at="2023-10-04T18:37:49 IST" duration-ms="70935">
+      <class name="com.opencart.tests.ComponentsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:36:38 IST" name="setUp" finished-at="2023-10-04T18:36:57 IST" duration-ms="19334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDesktopDropdown()[pri:1, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:31 IST" name="testDesktopDropdown" finished-at="2023-10-03T18:12:36 IST" duration-ms="5228" status="PASS">
+        <test-method signature="testComponents()[pri:1, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:36:57 IST" name="testComponents" finished-at="2023-10-04T18:37:06 IST" duration-ms="8664" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDesktopDropdown -->
-        <test-method signature="testLaptopAndNotebookPage()[pri:2, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:36 IST" name="testLaptopAndNotebookPage" finished-at="2023-10-03T18:12:37 IST" duration-ms="35" status="PASS">
+        </test-method> <!-- testComponents -->
+        <test-method signature="testMonitorsPage()[pri:2, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:06 IST" name="testMonitorsPage" finished-at="2023-10-04T18:37:06 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLaptopAndNotebookPage -->
-        <test-method signature="testListViewSelection()[pri:3, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:37 IST" name="testListViewSelection" finished-at="2023-10-03T18:12:37 IST" duration-ms="225" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- testMonitorsPage -->
+        <test-method signature="testListView()[pri:3, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:06 IST" name="testListView" finished-at="2023-10-04T18:37:06 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListView -->
+        <test-method signature="testRating()[pri:4, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:06 IST" name="testRating" finished-at="2023-10-04T18:37:07 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRating -->
+        <test-method signature="testRange()[pri:5, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:07 IST" name="testRange" finished-at="2023-10-04T18:37:08 IST" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRange -->
+        <test-method signature="testSamsungMonitor()[pri:6, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:08 IST" name="testSamsungMonitor" finished-at="2023-10-04T18:37:17 IST" duration-ms="9191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSamsungMonitor -->
+        <test-method signature="testReviews()[pri:7, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:17 IST" name="testReviews" finished-at="2023-10-04T18:37:48 IST" duration-ms="30567" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d8efbbe303143c025a50c74483c8fb32)] -> id: input-name] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50378/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8efbbe303143c025a50c74483c8fb32]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.opencart.tests.LaptopAndNotebookTest.testListViewSelection(LaptopAndNotebookTest.java:53)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (d8efbbe303143c025a50c74483c8fb32)] -> id: input-name] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50378/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d8efbbe303143c025a50c74483c8fb32
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.opencart.pages.ComponentsPage.writeReview(ComponentsPage.java:109)
+at com.opencart.tests.ComponentsTest.testReviews(ComponentsTest.java:74)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,43 +86,31 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testListViewSelection -->
-        <test-method signature="testGridView()[pri:4, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:37 IST" name="testGridView" finished-at="2023-10-03T18:12:37 IST" duration-ms="59" status="PASS">
+        </test-method> <!-- testReviews -->
+        <test-method signature="testContinue()[pri:8, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:48 IST" name="testContinue" finished-at="2023-10-04T18:37:48 IST" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGridView -->
-        <test-method signature="testMacBookPro()[pri:5, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:37 IST" name="testMacBookPro" finished-at="2023-10-03T18:12:41 IST" duration-ms="4073" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMacBookPro -->
-        <test-method signature="testMacBookProImage()[pri:6, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:41 IST" name="testMacBookProImage" finished-at="2023-10-03T18:12:41 IST" duration-ms="112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMacBookProImage -->
-        <test-method signature="testNextButton()[pri:7, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:41 IST" name="testNextButton" finished-at="2023-10-03T18:12:41 IST" duration-ms="61" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNextButton -->
-        <test-method signature="testCloseButton()[pri:8, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:41 IST" name="testCloseButton" finished-at="2023-10-03T18:12:42 IST" duration-ms="919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCloseButton -->
-        <test-method signature="testQuantity()[pri:9, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:42 IST" name="testQuantity" finished-at="2023-10-03T18:12:42 IST" duration-ms="168" status="PASS">
+        </test-method> <!-- testContinue -->
+        <test-method signature="testQuantity()[pri:9, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:48 IST" name="testQuantity" finished-at="2023-10-04T18:37:48 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testQuantity -->
-        <test-method signature="testAddToCart()[pri:10, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:42 IST" name="testAddToCart" finished-at="2023-10-03T18:12:42 IST" duration-ms="75" status="PASS">
+        <test-method signature="testAddToCart()[pri:10, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:48 IST" name="testAddToCart" finished-at="2023-10-04T18:37:48 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddToCart -->
-        <test-method signature="testViewCart()[pri:11, instance:com.opencart.tests.LaptopAndNotebookTest@1ed4ae0f]" started-at="2023-10-03T18:12:42 IST" name="testViewCart" finished-at="2023-10-03T18:12:42 IST" duration-ms="73" status="PASS">
+        <test-method signature="testViewCart()[pri:11, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:48 IST" name="testViewCart" finished-at="2023-10-04T18:37:48 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testViewCart -->
-      </class> <!-- com.opencart.tests.LaptopAndNotebookTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.ComponentsTest@54c5a2ff]" started-at="2023-10-04T18:37:48 IST" name="tearDown" finished-at="2023-10-04T18:37:49 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.tests.ComponentsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
