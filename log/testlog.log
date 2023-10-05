@@ -337,3 +337,18 @@
 2023-10-04 18:37:48,793 - ebay -INFO - click on add to cart
 2023-10-04 18:37:48,876 - ebay -INFO - click on view cart
 2023-10-04 18:37:48,918 - ebay -INFO - close the browser
+2023-10-05 17:39:06,140 - ebay -INFO - open the chrome browser
+2023-10-05 17:39:18,288 - ebay -INFO - Click on tablets
+2023-10-05 17:39:19,384 - ebay -INFO - sucessfully navigate to tablets page
+2023-10-05 17:39:19,392 - ebay -INFO - Click on grid view
+2023-10-05 17:39:19,476 - ebay -INFO - select the rating
+2023-10-05 17:39:20,345 - ebay -INFO - select the range
+2023-10-05 17:39:21,304 - ebay -INFO - Click on samsung galaxy
+2023-10-05 17:39:25,908 - ebay -INFO - sucessfully navigate to samsung galaxy page
+2023-10-05 17:39:25,917 - ebay -INFO - Click on samsung galaxy image
+2023-10-05 17:39:26,043 - ebay -INFO - Click on next button
+2023-10-05 17:39:26,100 - ebay -INFO - Click on close button
+2023-10-05 17:39:27,034 - ebay -INFO - enter the quantity
+2023-10-05 17:39:27,209 - ebay -INFO - click on add to cart
+2023-10-05 17:39:27,262 - ebay -INFO - click on view cart
+2023-10-05 17:39:27,310 - ebay -INFO - close the browser
