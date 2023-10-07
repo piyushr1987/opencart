@@ -352,3 +352,33 @@
 2023-10-05 17:39:27,209 [main] INFO ebay - click on add to cart
 2023-10-05 17:39:27,262 [main] INFO ebay - click on view cart
 2023-10-05 17:39:27,310 [main] INFO ebay - close the browser
+2023-10-07 17:07:52,220 [main] INFO ebay - open the chrome browser
+2023-10-07 17:08:01,254 [main] INFO ebay - Click on phones and PDAs
+2023-10-07 17:08:02,936 [main] INFO ebay - sucessfully navigate to phone and PDAs page
+2023-10-07 17:08:02,941 [main] INFO ebay - Click on grid view
+2023-10-07 17:08:03,165 [main] INFO ebay - select the rating
+2023-10-07 17:08:04,176 [main] INFO ebay - select the range
+2023-10-07 17:08:04,988 [main] INFO ebay - Click on iphone
+2023-10-07 17:08:07,654 [main] INFO ebay - sucessfully navigate to iphone page
+2023-10-07 17:08:07,659 [main] INFO ebay - Click on iphone image
+2023-10-07 17:08:07,908 [main] INFO ebay - Click on next button
+2023-10-07 17:08:08,067 [main] INFO ebay - Click on close button
+2023-10-07 17:08:08,386 [main] INFO ebay - enter the quantity
+2023-10-07 17:08:08,654 [main] INFO ebay - click on add to cart
+2023-10-07 17:08:08,829 [main] INFO ebay - click on view cart
+2023-10-07 17:08:09,049 [main] INFO ebay - close the browser
+2023-10-07 17:09:02,518 [main] INFO ebay - open the chrome browser
+2023-10-07 17:09:11,527 [main] INFO ebay - Click on phones and PDAs
+2023-10-07 17:09:12,730 [main] INFO ebay - sucessfully navigate to phone and PDAs page
+2023-10-07 17:09:12,730 [main] INFO ebay - Click on grid view
+2023-10-07 17:09:12,948 [main] INFO ebay - select the rating
+2023-10-07 17:09:13,934 [main] INFO ebay - select the range
+2023-10-07 17:09:15,428 [main] INFO ebay - Click on iphone
+2023-10-07 17:09:18,169 [main] INFO ebay - sucessfully navigate to iphone page
+2023-10-07 17:09:18,174 [main] INFO ebay - Click on iphone image
+2023-10-07 17:09:18,342 [main] INFO ebay - Click on next button
+2023-10-07 17:09:18,524 [main] INFO ebay - Click on close button
+2023-10-07 17:09:19,229 [main] INFO ebay - enter the quantity
+2023-10-07 17:09:39,300 [main] INFO ebay - click on add to cart
+2023-10-07 17:09:39,491 [main] INFO ebay - click on view cart
+2023-10-07 17:09:39,705 [main] INFO ebay - close the browser

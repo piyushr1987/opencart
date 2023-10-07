@@ -352,3 +352,33 @@
 2023-10-05 17:39:27,209 - ebay -INFO - click on add to cart
 2023-10-05 17:39:27,262 - ebay -INFO - click on view cart
 2023-10-05 17:39:27,310 - ebay -INFO - close the browser
+2023-10-07 17:07:52,220 - ebay -INFO - open the chrome browser
+2023-10-07 17:08:01,254 - ebay -INFO - Click on phones and PDAs
+2023-10-07 17:08:02,936 - ebay -INFO - sucessfully navigate to phone and PDAs page
+2023-10-07 17:08:02,941 - ebay -INFO - Click on grid view
+2023-10-07 17:08:03,165 - ebay -INFO - select the rating
+2023-10-07 17:08:04,176 - ebay -INFO - select the range
+2023-10-07 17:08:04,988 - ebay -INFO - Click on iphone
+2023-10-07 17:08:07,654 - ebay -INFO - sucessfully navigate to iphone page
+2023-10-07 17:08:07,659 - ebay -INFO - Click on iphone image
+2023-10-07 17:08:07,908 - ebay -INFO - Click on next button
+2023-10-07 17:08:08,067 - ebay -INFO - Click on close button
+2023-10-07 17:08:08,386 - ebay -INFO - enter the quantity
+2023-10-07 17:08:08,654 - ebay -INFO - click on add to cart
+2023-10-07 17:08:08,829 - ebay -INFO - click on view cart
+2023-10-07 17:08:09,049 - ebay -INFO - close the browser
+2023-10-07 17:09:02,518 - ebay -INFO - open the chrome browser
+2023-10-07 17:09:11,527 - ebay -INFO - Click on phones and PDAs
+2023-10-07 17:09:12,730 - ebay -INFO - sucessfully navigate to phone and PDAs page
+2023-10-07 17:09:12,730 - ebay -INFO - Click on grid view
+2023-10-07 17:09:12,948 - ebay -INFO - select the rating
+2023-10-07 17:09:13,934 - ebay -INFO - select the range
+2023-10-07 17:09:15,428 - ebay -INFO - Click on iphone
+2023-10-07 17:09:18,169 - ebay -INFO - sucessfully navigate to iphone page
+2023-10-07 17:09:18,174 - ebay -INFO - Click on iphone image
+2023-10-07 17:09:18,342 - ebay -INFO - Click on next button
+2023-10-07 17:09:18,524 - ebay -INFO - Click on close button
+2023-10-07 17:09:19,229 - ebay -INFO - enter the quantity
+2023-10-07 17:09:39,300 - ebay -INFO - click on add to cart
+2023-10-07 17:09:39,491 - ebay -INFO - click on view cart
+2023-10-07 17:09:39,705 - ebay -INFO - close the browser
