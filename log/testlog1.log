@@ -382,3 +382,18 @@
 2023-10-07 17:09:39,300 [main] INFO ebay - click on add to cart
 2023-10-07 17:09:39,491 [main] INFO ebay - click on view cart
 2023-10-07 17:09:39,705 [main] INFO ebay - close the browser
+2023-10-07 17:15:01,295 [main] INFO ebay - open the chrome browser
+2023-10-07 17:15:09,863 [main] INFO ebay - Click on phones and PDAs
+2023-10-07 17:15:12,378 [main] INFO ebay - sucessfully navigate to phone and PDAs page
+2023-10-07 17:15:12,384 [main] INFO ebay - Click on grid view
+2023-10-07 17:15:12,592 [main] INFO ebay - select the rating
+2023-10-07 17:15:14,221 [main] INFO ebay - select the range
+2023-10-07 17:15:15,065 [main] INFO ebay - Click on iphone
+2023-10-07 17:15:19,775 [main] INFO ebay - sucessfully navigate to iphone page
+2023-10-07 17:15:19,779 [main] INFO ebay - Click on iphone image
+2023-10-07 17:15:19,970 [main] INFO ebay - Click on next button
+2023-10-07 17:15:20,133 [main] INFO ebay - Click on close button
+2023-10-07 17:15:21,025 [main] INFO ebay - enter the quantity
+2023-10-07 17:15:21,319 [main] INFO ebay - click on add to cart
+2023-10-07 17:15:21,499 [main] INFO ebay - click on view cart
+2023-10-07 17:15:21,717 [main] INFO ebay - close the browser
